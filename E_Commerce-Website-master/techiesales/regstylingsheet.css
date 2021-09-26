@@ -1,0 +1,210 @@
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: serif;
+	background:url(1.jpeg)  no-repeat ;
+	background-size: cover;
+	height: 800vh auto;
+	width: 100%;
+	background-attachment: fixed;
+	wekit-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+}
+
+#main{
+	width:100%;
+	height: 100vh;
+	background-size:cover;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	height: 65px;
+	background-color:#000;
+	background:rgba(0,0,0,0.8);
+	line-height: 65px;
+	position: sticky;
+	min-height: 8vh;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	float:right;
+	margin-right: 30px;
+	margin:0 0 5px auto;		
+
+}
+
+
+.nav-links li a{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+
+.nav-links li a:hover{
+	   background: linear-gradient(to bottom, #0099ff -5%, #00ffff 107%);
+
+
+}
+
+.nav-links  a{
+	text-decoration:none;
+	color:#fff;
+	padding:0 30px;
+
+}
+.nav-links  a:hover{
+	color:black;
+}
+
+nav .lines{
+	display: none;
+	cursor: pointer;
+	color: #fff;
+	float: right;
+	
+
+}
+
+
+
+
+.wrap{
+	position: absolute;
+	top: 415px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	padding: 70px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,5);
+	border-radius: 90px 0px 90px 0px;
+	background: -moz-linear-gradient(45deg, rgba(255,117,237,1) 19%, rgba(189,152,241,1) 34%, rgba(136,180,244,1) 46%, rgba(0,255,255,1) 77%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(19%, rgba(255,117,237,1)), color-stop(34%, rgba(189,152,241,1)), color-stop(46%, rgba(136,180,244,1)), color-stop(77%, rgba(0,255,255,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(45deg, rgba(255,117,237,1) 19%, rgba(189,152,241,1) 34%, rgba(136,180,244,1) 46%, rgba(0,255,255,1) 77%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(45deg, rgba(255,117,237,1) 19%, rgba(189,152,241,1) 34%, rgba(136,180,244,1) 46%, rgba(0,255,255,1) 77%); /* opera 11.10+ */
+	background: -ms-linear-gradient(45deg, rgba(255,117,237,1) 19%, rgba(189,152,241,1) 34%, rgba(136,180,244,1) 46%, rgba(0,255,255,1) 77%); /* ie10+ */
+	background: linear-gradient(45deg, rgba(255,117,237,1) 19%, rgba(189,152,241,1) 34%, rgba(136,180,244,1) 46%, rgba(0,255,255,1) 77%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#FF75ED',GradientType=1 ); /* ie6-9 */
+
+}
+.userimage{
+	display: flex;
+	max-width:100px;
+	height: 100px;
+	border-radius: 60%;
+	overflow: hidden;
+	position: absolute;
+	top: -50px;
+	
+	left:calc(50% - 50px);
+
+
+}
+.userimage img{
+	max-width: 100%;
+}
+h2{
+	margin: 0 auto;
+	padding: 5px ;
+	color: black;
+	font-family: courier;
+	text-align: center;
+}
+input[type=text],input[type=email ],input[type=password]
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 35px;
+	background:rgba(0,0,0,.10);
+	outline: none;
+	border:none;
+	border-bottom: 1px solid black;
+	color:black;
+	border-radius:10px;
+	margin:5px;
+	font-weight:bold;
+	font-family: newtimesroman;
+
+
+
+}
+::-ms-input-placeholder {
+	color: black;
+	}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+button
+{
+	
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline:none;
+	border: none;
+	background:#60adda;
+	opacity:1;
+	border-radius:20px;
+	font-size: 20px;
+	color: black;
+	overflow: hidden;
+	
+}
+button:hover{
+	background:red;
+	opacity: 1;
+	z-index: -2;
+	}
+.login_link{
+	color:#fff;
+	font-size: 15px;
+	line-height: 20px;
+	position: absolute;
+	margin-top: 12px;
+	text-decoration: none;
+
+}
+
+.wrap a{
+	color:#fff;
+	font-size: 15px;
+	line-height: 20px;
+	position: absolute;
+	margin-top: 0px;
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	
+   
+}
+.wrap a:hover{
+	color: red;
+
+	
+}
+ .input-icon i { 
+            position: absolute; 
+           
+        } 
+          
+ .input-icon { 
+            width: 100%; 
+            margin-bottom: 14px; 
+        } 
+.icon { 
+            padding: 14px; 
+            color: black; 
+            min-width: 0px; 
+             
+        } 
+ 

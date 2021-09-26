@@ -1,0 +1,59 @@
+
+#pl-left
+{
+	position: fixed;
+	width: auto;
+	height: calc(100%-90px);
+	top: 500px;
+}
+
+#panel
+{
+	position: absolute;
+	background:rgba(255,255,255,0.6);
+	height: 50px;
+	width: 80px;
+	border-radius: 80px 50px 50px 80px;
+	transition: width 0.9s ease;
+
+}
+#sidepanel
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-radius: 0px 80px 80px 0px;
+	height: 100%;
+	width: 9px;
+	background:#097ff1;
+
+}
+#sidepanel h2
+{
+	font-size: 18px;
+	width: 100px;
+	margin-right: 20px;
+	margin-top: 18px;
+	line-height: 10px;
+	position: absolute;
+	color: black;
+	right: 100%;
+	opacity: 0;
+	transition: opacity 0.1s ease;
+}
+#panel:hover #sidepanel h2
+{
+	transition: opacity 1.5s ease;
+	opacity: 1;
+}
+#panel img
+{
+	height: 50px;
+	margin-top: 0px;
+	border-radius: 50%;
+
+}
+#panel:hover
+{
+	width: 220px;
+}

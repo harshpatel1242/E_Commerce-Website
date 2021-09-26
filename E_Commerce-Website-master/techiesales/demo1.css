@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: serif;
+	background:url(passwd.jpg)  no-repeat ;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	background-attachment: fixed;
+	wekit-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+}
+
+#main{
+	width:100%;
+	height: 100vh;
+	background-size:cover;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	height: 65px;
+	background-color:#000;
+	background:rgba(0,0,0,0.9);
+	line-height: 65px;
+	position: sticky;
+	min-height: 8vh;
+}
+
+nav #sidebar{
+	position: fixed;
+	top: 65px;
+	height: 100%;
+	width: 20%;
+	background:rgba(0,0,0,0.9);
+	left: -20%;
+	transition: left 750ms linear;
+
+
+}
+
+nav #sidebar.active{
+	left: 0px;
+
+	
+}
+
+nav #sidebar > .list > .item
+{
+	color:#fff;
+	padding: 0px 0px;
+	border-bottom: 1px solid #448;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+nav #sidebar > .list > .item a
+{
+	text-decoration: none;
+}
+
+nav #toggle-btn
+{
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}
+
+nav #toggle-btn span
+{
+	width: 30px;
+	height: 5px;
+	background: #fff;
+	display: block;
+	margin: 4px 0px;
+	cursor: pointer;
+}
+
+
+

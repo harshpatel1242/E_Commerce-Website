@@ -1,0 +1,13 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	background:url(go.png)  no-repeat ;
+	background-size: cover;
+	height: 800vh auto;
+	width: 100%;
+	background-attachment: fixed;
+	wekit-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+}
